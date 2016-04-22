@@ -4,6 +4,7 @@ forge "http://forge.puppetlabs.com"
 # Note the versions are all set to :latest but after you've 
 # installed you should change them to the exact version you want
 mod "puppetlabs/ntp", :latest
+mod "puppetlabs/stdlib", :latest
 mod "puppetlabs/motd", :latest
 mod "puppetlabs/vcsrepo", :latest
 mod 'puppet/windows_firewall', '1.0.0'
