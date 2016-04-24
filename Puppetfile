@@ -8,11 +8,11 @@ mod "puppetlabs/stdlib", :latest
 mod "puppetlabs/motd", :latest
 mod "puppetlabs/vcsrepo", :latest
 mod "puppetlabs/sqlserver", :latest
+mod 'puppetlabs/concat', :latest
 mod 'puppet/windows_firewall', '1.0.0'
 mod 'puppetlabs/acl', '1.1.1'
 mod 'puppetlabs/reboot', '1.1.0'
 mod 'puppetlabs/apache', '1.6.0'
-mod 'puppetlabs/concat', '1.2.4'
 mod 'puppetlabs/limits', '0.1.0'
 mod 'nanliu/staging', '1.0.3'
 mod 'puppet/iis', '1.4.1'
