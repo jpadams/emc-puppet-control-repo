@@ -25,3 +25,11 @@ mod 'sqlwebapp',
   :ref => '1.0.0'
 mod 'mount_iso',
   :git => 'https://github.com/puppetlabs/puppetlabs-mount_iso.git'
+# MODULES-1341 describes a situation in which firewall purging on CentOS 7
+# # results in erroneous errors being thrown because rules Puppet tries to delete
+# # are already gone. Until this is fixed in the published module, use this
+# # patched version.
+# #mod 'puppetlabs/firewall', '1.7.0'
+mod 'firewall',
+  :git => 'git://github.com/puppetlabs/puppetlabs-firewall.git',
+  :ref => 'd33d0eb66d0b36ad9feecd2ade42f76a581612a1'
