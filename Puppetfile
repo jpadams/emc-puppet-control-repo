@@ -7,6 +7,7 @@ mod "puppetlabs/ntp", :latest
 mod "puppetlabs/stdlib", :latest
 mod "puppetlabs/motd", :latest
 mod "puppetlabs/vcsrepo", :latest
+mod "puppetlabs/sqlserver", :latest
 mod 'puppet/windows_firewall', '1.0.0'
 mod 'puppetlabs/acl', '1.1.1'
 mod 'puppetlabs/reboot', '1.1.0'
